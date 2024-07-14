@@ -10,13 +10,11 @@ export const Navbar = () => {
     >
         <div className="flex gap-5">
           <img
-            loading="lazy"
             src={imageUrls.logo}
             className="shrink-0 self-start aspect-[1.01] w-[70px]"
             alt="First Image"
           />
           <img
-            loading="lazy"
             src={imageUrls.heading}
             className="grow shrink-0 aspect-[3.33] basis-0 w-[228.36] h-[68px]"
             alt="Second Image"

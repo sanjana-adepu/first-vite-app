@@ -16,7 +16,7 @@ export const Home = () => {
             <div className="flex gap-5 max-md:flex-col max-md:gap-0">
                 <div className="flex flex-col gap-10 w-[300px] max-md:ml-0 max-md:w-full">
                 <img
-                    loading="lazy"
+                    
                     src={imageUrls.suframe}
                     className="grow shrink-0 max-w-full aspect-square max-md:mt-10"
                 />
@@ -31,7 +31,7 @@ export const Home = () => {
                     <div>
                     <Link to="/sudoku">
                     <img
-                    loading="lazy"
+                    
                     src={imageUrls.homePlay}
                     className="mt-10 max-w-full aspect-[2] w-[100px]"
                     />
@@ -41,7 +41,7 @@ export const Home = () => {
                 </div>
                 <div className="flex flex-col gap-10 w-[300px] max-md:ml-0 max-md:w-full">
                 <img
-                    loading="lazy"
+                    
                     src={imageUrls.w1frame}
                     className="grow shrink-0 max-w-full aspect-square max-md:mt-10"
                 />
@@ -55,7 +55,7 @@ export const Home = () => {
                     <div>
                     <Link to="/wordle-i">
                     <img
-                    loading="lazy"
+                    
                     src={imageUrls.homePlay}
                     className="mt-10 max-w-full aspect-[2] w-[100px]"
                     />
@@ -65,7 +65,7 @@ export const Home = () => {
                 </div>
                 <div className="flex flex-col gap-10 w-[300px] max-md:ml-0 max-md:w-full">
                 <img
-                    loading="lazy"
+                    
                     src={imageUrls.crframe}
                     className="grow shrink-0 max-w-full aspect-square max-md:mt-10"
                 />
@@ -79,7 +79,7 @@ export const Home = () => {
                     <div>
                     <Link to="/crossword">
                     <img
-                    loading="lazy"
+                    
                     src={imageUrls.homePlay}
                     className="mt-10 max-w-full aspect-[2] w-[100px]"
                     />
@@ -89,7 +89,7 @@ export const Home = () => {
                 </div>
                 <div className="flex flex-col gap-10 w-[300px] max-md:ml-0 max-md:w-full">
                 <img
-                    loading="lazy"
+                    
                     src={imageUrls.w2frame}
                     className="grow shrink-0 max-w-full aspect-square max-md:mt-10"
                 />
@@ -103,7 +103,7 @@ export const Home = () => {
                     <div>
                     <Link to="/wordle-ii">
                     <img
-                    loading="lazy"
+                    
                     src={imageUrls.homePlay}
                     className="mt-10 max-w-full aspect-[2] w-[100px]"
                     />

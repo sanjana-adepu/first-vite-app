@@ -14,7 +14,7 @@ const Theme = () => {
       <div className="flex flex-cols-2 gap-12 max-md:flex-cols-1 sm:flex-cols-1 ">
           <div className='space-y-2'>
           <img
-            loading="lazy"
+            
             src="/images/darkTheme/preview.png"
             className="grow shrink-0 max-w-[450px] max-md:mt-10"
           />
@@ -31,7 +31,7 @@ const Theme = () => {
           </div>
           <div  className='space-y-2'>
           <img
-            loading="lazy"
+            
             src="/images/forestTheme/preview.png"
             className="grow shrink-0 max-w-[450px] max-md:mt-10"
           />

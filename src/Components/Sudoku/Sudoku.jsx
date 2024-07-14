@@ -11,7 +11,7 @@ const Sudoku = () => {
     className="items-center justify-center min-h-screen text-white max-md:mt-20 max-sm:mt-40">
       <div className="text-3xl text-center max-md:mt-10">
         <img
-          loading="lazy"
+          
           src={imageUrls.suheading}
           alt="Sudoku Heading"
           className="self-center max-w-[260px] h-auto"
@@ -20,7 +20,7 @@ const Sudoku = () => {
       <div className="flex flex-col space-x-8 md:flex-row md:gap-0">
         <div className="flex-1 mt-6">
         <img
-          loading="lazy"
+          
           src={imageUrls.suframe}
           className="grow shrink-0 max-w-[360px] aspect-square max-md:mt-10"
         />

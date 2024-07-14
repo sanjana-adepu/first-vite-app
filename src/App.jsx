@@ -18,7 +18,9 @@ const App = () => {
             <div style={{ backgroundColor: `var(--bgcolor)`, fontFamily: `var(--textfont)`, }} className="flex flex-col items-center pb-20" >
             <Navbar />
               <Routes>
+                
                 <Route path="/" element={<Home />} />
+                <Route path="*" element={<Home />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/sudoku" element={<Sudoku />} />
                 <Route path="/wordle-i" element={<WordleI />} />

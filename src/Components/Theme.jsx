@@ -15,7 +15,7 @@ const Theme = () => {
           <div className='space-y-2'>
           <img
             
-            src="/images/darkTheme/preview.png"
+            src="/first-vite-app/images/darkTheme/preview.png"
             className="grow shrink-0 max-w-[450px] max-md:mt-10"
           />
           <button 
@@ -32,7 +32,7 @@ const Theme = () => {
           <div  className='space-y-2'>
           <img
             
-            src="/images/forestTheme/preview.png"
+            src="/first-vite-app/images/forestTheme/preview.png"
             className="grow shrink-0 max-w-[450px] max-md:mt-10"
           />
           <button 

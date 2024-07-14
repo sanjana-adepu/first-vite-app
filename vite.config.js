@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/first-vite-app/', 
+  base: process.env.NODE_ENV === 'production' ? '/<repository-name>/' : '/',
   plugins: [react()],
 })

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bgcolor: #243D4F;
+    --navbg: #153144;
+    --border: #153144;
+    --pdcolor: #92ECEC;
+    --gridbg: #0A6481;
+    --hgridbg: #1CA3A3;
+    --hometext: #43A3A3;
+    --textfont: 'Irish Grover', system-ui;
+  }
+  
+  [data-theme='darkTheme'] {
+    --bgcolor: #243D4F;
+    --navbg: #153144;
+    --border: #153144;
+    --pdcolor: #92ECEC;
+    --gridbg: #0A6481;
+    --hgridbg: #1CA3A3;
+    --hometext: #43A3A3;
+    --textfont: 'Irish Grover', system-ui;
+  }
+  
+  [data-theme='forestTheme'] {
+    --bgcolor: rgba(227, 255, 228, 1);
+    --navbg: #441818;
+    --border: #145C08;
+    --pdcolor: #038E00;
+    --gridbg: #A2FF93;
+    --hgridbg: #31BE2E;
+    --hometext: #05FF00;
+    --textfont: 'Lancelot', serif;
+  }
